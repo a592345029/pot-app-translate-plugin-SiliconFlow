@@ -33,7 +33,11 @@ SiliconFlow硅基流动翻译插件 - 一个为pot-app开发的翻译插件
 - 我只是修改了部分代码，使其支持SiliconFlow。原项目为[pot-app-translate-plugin-deepseek](https://github.com/tzulao55/pot-app-translate-plugin-deepseek?tab=readme-ov-file)- 他拥有这个插件所有的权利。
 
 ## 可能遇到的问题
-- 如果在导入之后进行翻译，SiliconFlow没有冒泡泡进行翻译![image](https://github.com/user-attachments/assets/13f21665-aaf4-466c-84ba-eed752deb14c)
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/13f21665-aaf4-466c-84ba-eed752deb14c" width="60%">
+</div>
+
+- 如果在导入之后进行翻译，SiliconFlow没有冒泡泡进行翻译!
 - 你可以通过pot的服务设置中选择SiliconFlow插件设置，重新选择一下模型，然后保存后再试试。
 
 
