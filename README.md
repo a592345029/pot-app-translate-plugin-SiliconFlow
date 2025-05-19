@@ -37,7 +37,7 @@ SiliconFlow硅基流动翻译插件 - 一个为pot-app开发的翻译插件
   <img src="https://github.com/user-attachments/assets/13f21665-aaf4-466c-84ba-eed752deb14c" width="60%">
 </div>
 
-- 如果在导入之后进行翻译，SiliconFlow没有冒泡泡进行翻译!
+- 如果在导入之后进行翻译，SiliconFlow没有冒泡泡进行翻译的活（就像上面这样）
 - 你可以通过pot的服务设置中选择SiliconFlow插件设置，重新选择一下模型，然后保存后再试试。
 
 
