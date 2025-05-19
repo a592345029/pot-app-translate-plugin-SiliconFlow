@@ -7,7 +7,7 @@ SiliconFlow硅基流动翻译插件 - 一个为pot-app开发的翻译插件
 
 ## 前置要求
 - [pot-app](https://github.com/pot-app/pot-app) - 请先下载并安装pot-app
-- [deepseek API开放平台](https://platform.deepseek.com/usage)- 需要在SiliconFlow官网申请API密钥
+- [SiliconFlow API开放平台](https://cloud.siliconflow.cn/)- 需要在SiliconFlow官网申请API密钥
 
 ## 功能特点
 - 支持多种模型选择：推荐使用Qwen2-7B-Instruct版本，响应速度极快，其他的模型例如deepseek-v3速度需要数秒才能响应
@@ -30,3 +30,4 @@ SiliconFlow硅基流动翻译插件 - 一个为pot-app开发的翻译插件
 ## 注意事项
 - 请妥善保管你的API密钥
 - 翻译服务需要联网使用
+- 我只是修改了部分代码，使其支持SiliconFlow。原项目为（https://github.com/tzulao55/pot-app-translate-plugin-deepseek?tab=readme-ov-file），他拥有这个插件所有的权利。
