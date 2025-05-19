@@ -30,4 +30,6 @@ SiliconFlow硅基流动翻译插件 - 一个为pot-app开发的翻译插件
 ## 注意事项
 - 请妥善保管你的API密钥
 - 翻译服务需要联网使用
-- 我只是修改了部分代码，使其支持SiliconFlow。原项目为[pot-app-translate-plugin-deepseek]（https://github.com/tzulao55/pot-app-translate-plugin-deepseek?tab=readme-ov-file）- 他拥有这个插件所有的权利。
+- 我只是修改了部分代码，使其支持SiliconFlow。原项目为[pot-app-translate-plugin-deepseek](https://github.com/tzulao55/pot-app-translate-plugin-deepseek?tab=readme-ov-file)- 他拥有这个插件所有的权利。
+
+
