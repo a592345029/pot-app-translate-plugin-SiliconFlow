@@ -41,7 +41,7 @@ SiliconFlow硅基流动翻译插件 - 一个为pot-app开发的翻译插件
 - 你可以通过pot的服务设置中选择SiliconFlow插件设置，重新选择一下模型，然后保存后再试试。
 ## 增加了逻辑的优化版本
 - 逻辑优化的版本增强了ai对句子的逻辑翻译处理，所以不会一字一句的翻译
-- ![image](https://github.com/user-attachments/assets/8e5333e9-387c-4cef-b145-99c98775be28)
+
 <div align="center">
   <img src="https://github.com/user-attachments/assets/8e5333e9-387c-4cef-b145-99c98775be28" width="60%">
 </div>
