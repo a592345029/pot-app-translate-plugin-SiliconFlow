@@ -21,7 +21,7 @@ async function translate(text, from, to, options) {
             },
             {
                 "role": "user",
-                "content": `Question into ${to}:\n${text}`
+                "content": `我的问题是 ${to}:\n${text}`
             }
 ],
         temperature: 0,
