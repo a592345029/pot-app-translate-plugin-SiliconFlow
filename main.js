@@ -17,7 +17,7 @@ async function translate(text, from, to, options) {
         messages: [
             {
                 "role": "system",
-                "content": "请先给出字母选项。给出的题目内容由OCR获得，若不影响判断，则请忽略可能存在错误的换行符、空格与错别字。回复的内容请勿包含任何markdown标记，把答案放在最前面，且简短讲解即可。"
+                "content": "请简短回答，答案选项放最前面"
             }
         ],
         temperature: 0,
