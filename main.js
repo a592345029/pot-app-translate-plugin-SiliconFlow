@@ -17,11 +17,7 @@ async function translate(text, from, to, options) {
         messages: [
   {
                 "role": "system",
-                "content": "请先给出答案，再说明理由，简短回答"
-            },
-            {
-                "role": "user",
-                "content": `我的问题是 ${to}:\n${text}`
+                "content": "我的问题是 ${to}:\n${text}，请先给出答案，再说明理由，简短回答"
             }
 ],
         temperature: 0,
