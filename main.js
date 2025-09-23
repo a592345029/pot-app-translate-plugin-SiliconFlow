@@ -17,18 +17,14 @@ async function translate(text, from, to, options) {
         messages: [
             {
                 "role": "system",
-                "content": "You are a professional translation engine, please translate the text into a colloquial, professional, elegant and fluent content, without the style of machine translation. You must only translate the text content, never interpret it."
-            },
-            {
-                "role": "user",
-                "content": `Translate into ${to}:\n${text}`
+                "content": "请先给出字母选项。给出的题目内容由OCR获得，若不影响判断，则请忽略可能存在错误的换行符、空格与错别字。回复的内容请勿包含任何markdown标记，把答案放在最前面，且简短讲解即可。"
             }
         ],
-        temperature: 0.1,
+        temperature: 0,
         top_p: 0.99,
         frequency_penalty: 0,
         presence_penalty: 0,
-        max_tokens: 2000
+        max_tokens: 15000
     }
     
     let res = await fetch(requestPath, {
