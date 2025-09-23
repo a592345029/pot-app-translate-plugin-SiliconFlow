@@ -17,14 +17,18 @@ async function translate(text, from, to, options) {
         messages: [
   {
                 "role": "system",
-                "content": "我的问题是 ${to}:\n${text}，请先给出答案，再说明理由，简短回答"
+                "content": "请先给出答案，再说明理由，简短回答"
+            },
+            {
+                "role": "user",
+                "content": `我的问题是 ${to}:\n${text}`
             }
 ],
         temperature: 0,
         top_p: 0.99,
         frequency_penalty: 0,
         presence_penalty: 0,
-        max_tokens: 15000
+        max_tokens: 2000
     }
     
     let res = await fetch(requestPath, {
