@@ -25,9 +25,7 @@ async function translate(text, from, to, options) {
             }
 ],
         temperature: 0,
-        top_p: 0.99,
-        frequency_penalty: 0,
-        presence_penalty: 0,
+        top_p: 1,
         max_tokens: 2000
     }
     
