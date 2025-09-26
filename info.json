@@ -10,7 +10,7 @@
       "display": "模型选择",
       "type": "select",
       "options": {
-        "Qwen/Qwen2.5-VL-32B-Instruct": "Qwen/Qwen2.5-VL-32B-Instruct",
+        "doubao-1-5-pro-32k-250115": "doubao-1-5-pro-32k-250115",
         "Pro/deepseek-ai/DeepSeek-V3": "Pro/deepseek-ai/DeepSeek-V3",
         "deepseek-ai/DeepSeek-V3.1": "deepseek-ai/DeepSeek-V3.1",
         "zai-org/GLM-4.5": "zai-org/GLM-4.5",
