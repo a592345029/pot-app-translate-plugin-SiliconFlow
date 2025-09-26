@@ -16,7 +16,7 @@
         "deepseek-r1": "deepseek-r1-250528",
         "doubao-seed-1-6-thinking": "doubao-seed-1-6-thinking-250715"
       },
-      "default": "Qwen/Qwen2-7B-Instruct"
+      "default": "doubao-1-5-pro-32k-250115"
     },
     {
       "key": "apiKey",
