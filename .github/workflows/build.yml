@@ -27,11 +27,22 @@ jobs:
           files: info.json ${{ env.ICON }} main.js
           dest: ${{ env.NAME }}.potext
 
+      - name: Get Date
+        id: date
+        run: echo "DATE=$(date +'%Y%m%d')" >> "$GITHUB_ENV"
+
+      - name: Generate Version Tag
+        id: version
+        run: |
+          DATE=${{ env.DATE }}
+          RUN_NUMBER=$(date +'%H%M%S')
+          VERSION="v${DATE}-${GITHUB_RUN_NUMBER}"
+          echo "VERSION=$VERSION" >> "$GITHUB_ENV"
+
       - name: Create Release
-        id: create_release
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: ${{ github.run_id }}
-          name: Release ${{ github.run_id }}
+          tag_name: ${{ env.VERSION }}
+          name: Release ${{ env.VERSION }}
           files: "*.potext"
           token: ${{ secrets.GITHUB_TOKEN }}
