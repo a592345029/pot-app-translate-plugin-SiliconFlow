@@ -2,11 +2,6 @@ name: Build
 
 on:
   workflow_dispatch:
-    inputs:
-      version:
-        description: '手动输入版本号 (例如 v1.0.0)'
-        required: false
-        default: ''
 
 permissions: write-all
 
@@ -33,15 +28,16 @@ jobs:
           dest: ${{ env.NAME }}.potext
 
       - name: Get Date
+        id: date
         run: echo "DATE=$(date +'%Y%m%d')" >> "$GITHUB_ENV"
 
-      - name: Set Version
+      - name: Generate Version Tag
+        id: version
         run: |
-          if [ "${{ github.event.inputs.version }}" != "" ]; then
-            echo "VERSION=${{ github.event.inputs.version }}" >> "$GITHUB_ENV"
-          else
-            echo "VERSION=v${{ env.DATE }}-${GITHUB_RUN_NUMBER}" >> "$GITHUB_ENV"
-          fi
+          DATE=${{ env.DATE }}
+          RUN_NUMBER=$(date +'%H%M%S')
+          VERSION="v${DATE}-${GITHUB_RUN_NUMBER}"
+          echo "VERSION=$VERSION" >> "$GITHUB_ENV"
 
       - name: Create Release
         uses: softprops/action-gh-release@v2
