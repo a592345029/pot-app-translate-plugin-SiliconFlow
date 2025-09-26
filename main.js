@@ -17,7 +17,7 @@ async function translate(text, from, to, options) {
         messages: [
   {
                 "role": "system",
-                "content": "请先给出答案，再说明理由，简短回答"
+                "content": "请先给出答案和选项，再说明理由，简短回答，不要长篇大论"
             },
             {
                 "role": "user",
