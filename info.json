@@ -2,20 +2,22 @@
   "id": "plugin.com.bushi.doubao",
   "plugin_type": "translate",
   "icon": "deepseek.svg",
-  "display": "doubao",
-  "homepage": "https://github.com/bushiliang/pot-app-translate-plugin-SiliconFlow",
+  "display": "豆包AI",
+  "homepage": "https://github.com/a592345029/pot-app-translate-plugin-SiliconFlow",
   "needs": [
     {
       "key": "model",
       "display": "模型选择",
       "type": "select",
       "options": {
-        "doubao-1-5-pro-32k": "doubao-1-5-pro-32k-250115",
-        "doubao-seed-1-6-flash": "doubao-seed-1-6-flash-250828",
-        "deepseek-r1": "deepseek-r1-250528",
-        "doubao-seed-1-6-thinking": "doubao-seed-1-6-thinking-250715"
+        "doubao-1-5-pro-32k-250115": "doubao-1-5-pro-32k",
+        "doubao-seed-1-6-flash-250828": "doubao-seed-1-6-flash",
+        "deepseek-r1-250528": "deepseek-r1",
+        "doubao-seed-1-6-thinking-250715": "doubao-seed-1-6-thinking",
+        "doubao-seed-1-6-250615": "doubao-seed",
+        "deepseek-v3-1-terminus": "deepseek-v3"
       },
-      "default": "doubao-1-5-pro-32k-250115"
+      "default": "doubao-1-5-pro-32k"
     },
     {
       "key": "apiKey",
