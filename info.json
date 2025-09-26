@@ -2,7 +2,7 @@
   "id": "plugin.com.bushi.doubao",
   "plugin_type": "translate",
   "icon": "deepseek.svg",
-  "display": "豆包",
+  "display": "doubao",
   "homepage": "https://github.com/bushiliang/pot-app-translate-plugin-SiliconFlow",
   "needs": [
     {
