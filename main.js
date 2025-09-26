@@ -5,7 +5,7 @@ async function translate(text, from, to, options) {
     let { apiKey, model = "deepseek-chat" } = config;
     
     // 设置默认请求路径
-    const requestPath = "https://api.siliconflow.cn/v1/chat/completions";
+    const requestPath = "https://ark.cn-beijing.volces.com/api/v3/chat/completions";
     
     const headers = {
         'Content-Type': 'application/json',
